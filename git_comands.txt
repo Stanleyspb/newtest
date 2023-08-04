@@ -1,0 +1,16 @@
+pwd -текущая директория
+git version -версия git
+git config --global user.name   -создание пользователя
+git config --global user.email
+git config --list  -инфа о настройках
+ls -ls  -содержимое папки
+git status  -проверка наличия репозитория
+git init  -создание репозитория
+git add .  -добавление в репозиторий
+git commit -m "comment"  -сохранение в репозитории
+git show  -показывает файлы последнего коммита в репозитории
+git log  -история коммитов
+.gitignore -файл где игнорятся отслеживания (error.log, *.log, logs/, !logs/olo.log)
+git clone
+git pull
+git push
